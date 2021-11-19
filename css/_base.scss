@@ -1,0 +1,37 @@
+$primary-color: #d8dada;
+$secondary-color:#b4c7d1;
+$text-color: rgba(0, 0, 0, 0.75);
+
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3 );
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 1rem;
+    min-width: 300px;
+    outline-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.weather {
+    font-size: 2rem;
+    text-align: center;
+
+    h2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        color: $text-color;
+    }
+
+    small {
+        color: $text-color;
+        font-weight: bolder;
+    }
+
+}
+
+
